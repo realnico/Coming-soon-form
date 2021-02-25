@@ -127,6 +127,14 @@ footer p {
   color: #969696;
 }
 
+.icon:hover {
+  background: #4f7df3;
+}
+
+.icon:hover .fab {
+  color: white;
+}
+
 /* Media query's */
 @media screen and (max-width: 734px) {
   main #logo {

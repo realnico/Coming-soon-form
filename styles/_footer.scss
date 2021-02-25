@@ -24,3 +24,11 @@ footer {
     color: $neutral-gray;
   }
 }
+
+.icon:hover {
+  background: $primary;
+
+  .fab {
+    color: white;
+  }
+}
