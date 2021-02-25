@@ -1,0 +1,61 @@
+/* Variables */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #969696;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #151f29;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main img {
+  height: 5%;
+  width: 5%;
+  margin: 5rem 5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.main-text h1 {
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.main-text span {
+  font-weight: 700;
+  color: #151f29;
+}
+
+.main-text h2 {
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+/* Variables */
+
+$primary: hsl(223, 87%, 63%);
+$secondary-blue: hsl(223, 100%, 88%);
+$secondary-red: hsl(354, 100%, 66%);
+$neutral-gray: hsl(0, 0%, 59%);
+$neutral-blue: hsl(209, 33%, 12%);
+
+$font-size: 20px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: $neutral-gray;
+}
+
+h2 {
+  font-size: 2rem;
+  color: $neutral-blue;
+}
