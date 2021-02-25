@@ -1,0 +1,25 @@
+footer {
+  ul {
+    list-style: none;
+  }
+
+  a {
+    color: $primary;
+  }
+
+  i {
+    font-size: 1.5rem;
+    flex-direction: column;
+  }
+
+  .icon {
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    border-radius: 50%;
+    padding: 1rem;
+  }
+
+  p {
+    margin-top: 3rem;
+    color: $neutral-gray;
+  }
+}
