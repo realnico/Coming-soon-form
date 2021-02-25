@@ -1,0 +1,30 @@
+form {
+  #email {
+    width: 40rem;
+    height: 5rem;
+    border-radius: 4rem;
+    border: 1px solid $secondary-blue;
+    font-family: "Libre Franklin", sans-serif;
+    color: $secondary-blue;
+    outline: none;
+    padding-left: 20px;
+    font-size: 15px;
+  }
+
+  button {
+    padding: 1.5rem 6rem;
+    border-radius: 4rem;
+    background: $primary;
+    color: white;
+    border: none;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+    margin-left: 1rem;
+    box-shadow: 0px 5px 10px rgba($color: #0011ff, $alpha: 0.2);
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: hsl(223, 91%, 58%);
+  }
+}

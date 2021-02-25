@@ -36,8 +36,8 @@ main {
 }
 
 main img {
-  height: 5%;
-  width: 5%;
+  height: 7.5%;
+  width: 7.5%;
   margin: 5rem 5rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -56,6 +56,36 @@ main img {
 
 .main-text h2 {
   font-weight: 400;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+}
+
+form #email {
+  width: 40rem;
+  height: 5rem;
+  border-radius: 4rem;
+  border: 1px solid #c2d3ff;
+  font-family: "Libre Franklin", sans-serif;
+  color: #c2d3ff;
+  outline: none;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+form button {
+  padding: 1.5rem 6rem;
+  border-radius: 4rem;
+  background: #4f7df3;
+  color: white;
+  border: none;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  margin-left: 1rem;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 17, 255, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 17, 255, 0.2);
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #326af5;
 }
 /*# sourceMappingURL=style.css.map */
