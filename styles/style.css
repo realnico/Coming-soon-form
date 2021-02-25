@@ -126,4 +126,38 @@ footer p {
   margin-top: 3rem;
   color: #969696;
 }
+
+/* Media query's */
+@media screen and (max-width: 734px) {
+  main #logo {
+    height: 20%;
+    width: 20%;
+    margin-top: 5rem;
+  }
+  .main-text h1 {
+    font-size: 2.75rem;
+  }
+  .main-text h2 {
+    font-size: 1.25rem;
+  }
+  form #email {
+    width: 32.5rem;
+    font-size: 14px;
+    padding-left: 40px;
+  }
+  form button {
+    width: 32.5rem;
+    height: 5rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  #illustration {
+    height: 90%;
+    width: 90%;
+    margin-bottom: 5rem;
+  }
+  footer p {
+    margin-bottom: 4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
